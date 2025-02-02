@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 // import java.util.Comparator;
 import java.util.Iterator;
+import java.util.ListIterator;
 import java.util.List;
 
 public class ArrayListExample {
@@ -52,6 +53,14 @@ public class ArrayListExample {
         Iterator<String> iterator = books.iterator();
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
+        }
+
+        // Traversing using ListIterator
+        System.out.println("Books list using ListIterator:");
+        ListIterator<String> listIterator = books.listIterator();
+        while (listIterator.hasNext()) { // hasPrevious() for reverse traversal
+            // listIterator.previous(); // Uncomment to traverse in reverse
+            System.out.println(listIterator.next());
         }
 
         // Checking the size of the list
