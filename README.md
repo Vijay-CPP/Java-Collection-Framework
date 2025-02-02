@@ -100,54 +100,67 @@ The Java Collection Framework provides a set of interfaces and classes for worki
 ## Concrete Implementations
 ### ArrayList
 **Implements**: List
+
 **Description**: A resizable array implementation of the List interface.
 
 ### Vector
 **Implements**: List
+
 **Description**: A resizable array implementation of the List interface, similar to ArrayList, but synchronized.
 
 ### LinkedList
 **Implements**: List, Deque, Queue
+
 **Description**: A doubly linked list implementation of the List and Deque interfaces.
 
 ### HashSet
 **Implements**: Set
+
 **Description**: A hash table-backed implementation of the Set interface.
 
 ### LinkedHashSet
 **Implements**: Set
+
 **Description**: A hash table and linked list implementation of the Set interface with predictable iteration order.
 
 ### TreeSet
 **Implements**: NavigableSet, SortedSet
+
 **Description**: A Set implementation that uses a TreeMap to store elements in a sorted order.
 
 ### Stack
 **Implements**: extends Vector
+
 **Description**: A legacy class that extends Vector and provides standard last-in, first-out stack operations.
 
 ### PriorityQueue
 **Implements**: Queue
+
 **Description**: A priority heap implementation of the Queue interface.
 
 ### ArrayDeque
 **Implements**: Deque
+
 **Description**: A resizable array implementation of the Deque interface.
 
 ### HashMap
 **Implements**: Map
+
 **Description**: A hash table-based implementation of the Map interface.
 
 ### LinkedHashMap
 **Implements**: Map
+
 **Description**: A hash table and linked list implementation of the Map interface with predictable iteration order.
 
 ### TreeMap
 **Implements**: NavigableMap, SortedMap
+
 **Description**: A Map implementation that uses a Red-Black tree to store keys in a sorted order.
 
 ### Hashtable
 **Implements**: Map
+
 **Description**: A synchronized hash table-based implementation of the Map interface.
 
 ## Topics Not Covered
