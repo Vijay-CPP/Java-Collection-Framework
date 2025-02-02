@@ -1,3 +1,5 @@
+// Helper class to store a pair of objects for demonstration purposes
+
 public class Pair<F, S> {
     public F first;
     public S second;
