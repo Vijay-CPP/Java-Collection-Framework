@@ -4,6 +4,7 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.ListIterator;
 import java.util.List;
+import java.util.Arrays;
 
 public class ArrayListExample {
     public static void main(String[] args) {
@@ -134,5 +135,13 @@ public class ArrayListExample {
         for (Pair<Integer, Integer> pair : pairs) {
             System.out.println(pair.toString());
         }
+
+        // Convert ArrayList to array
+        Integer[] arr = books.toArray(new Integer[0]);
+        System.out.println(Arrays.toString(arr));
+
+        // Convert array to ArrayList
+        List<Integer> list = Arrays.asList(arr);
+        System.out.println(list);
     }
 }
