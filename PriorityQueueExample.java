@@ -26,6 +26,9 @@ public class PriorityQueueExample {
         // Checking if the priority queue is empty
         System.out.println("Is priority queue empty? " + pq.isEmpty()); // false
 
+        // Remove element from the priority queue
+        pq.remove(25); // 25 is removed from the priority queue
+
         // Traversing the priority queue
         System.out.println("PriorityQueue elements:");
         for (Integer number : pq) {
