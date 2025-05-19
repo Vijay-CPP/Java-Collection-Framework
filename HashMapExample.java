@@ -44,6 +44,10 @@ public class HashMapExample {
             System.out.println(entry.getKey() + ": " + entry.getValue());
         }
 
+        // Iterating over the key-value pairs using forEach method
+        System.out.println("HashMap elements using forEach:");
+        fruitMap.forEach((key, value) -> System.out.println(key + ": " + value));
+
         // Iterating over the keys in the HashMap
         System.out.println("HashMap keys:");
         Set<String> keys = fruitMap.keySet();
